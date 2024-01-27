@@ -1,0 +1,44 @@
+/Users/theo/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/theo/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/theo/Coding/CLionProjects/learningC -B /Users/theo/Coding/CLionProjects/learningC/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_subdirectory):
+  The source directory
+
+    /Users/theo/Coding/CLionProjects/learningC/exam/exam_modules
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at CMakeLists.txt:7 (add_subdirectory):
+  The source directory
+
+    /Users/theo/Coding/CLionProjects/learningC/examTemplate/examTemp_modules
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at CMakeLists.txt:8 (add_subdirectory):
+  The binary directory
+
+    /Users/theo/Coding/CLionProjects/learningC/cmake-build-debug/examTemplate/examTemp_modules
+
+  is already used to build a source directory.  It cannot be used to build
+  source directory
+
+    /Users/theo/Coding/CLionProjects/learningC/examTemplate/examTemp_modules
+
+  Specify a unique binary directory name.
+
+
+CMake Error at CMakeLists.txt:9 (add_subdirectory):
+  The source directory
+
+    /Users/theo/Coding/CLionProjects/learningC/uebung7/uebung7_modules
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at uebung7/palindromLIB/CMakeLists.txt:7 (add_subdirectory):
+  add_subdirectory given source "palindromLIB" which is not an existing
+  directory.
+
+
+-- Configuring incomplete, errors occurred!
